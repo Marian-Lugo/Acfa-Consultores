@@ -5,6 +5,11 @@ TemplateMo - Finance Business
 https://templatemo.com/tm-545-finance-business
 
 */
+#logo img{
+ height: 100px;
+ width: 100px;
+ padding-bottom:25px;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
