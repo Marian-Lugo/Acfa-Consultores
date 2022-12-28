@@ -314,7 +314,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #C0392B ;
+	color: #faf7f6 ;
 	border-bottom: 3px solid #C0392B ;
 }
 .navbar .navbar-toggler-icon {
@@ -895,7 +895,7 @@ ul.slick-dots {
 
 footer {
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 8px 0px;
 	color: #fff;
 }
 
@@ -910,9 +910,10 @@ footer p {
 	color: #fff;
 }
 
-footer ul.social-icons {
+/* footer ul.social-icons {
 	margin-top: 25px;
-}
+	margin-left: 80px;
+} */
 
 footer ul.social-icons li {
 	display: inline-block;
@@ -1035,6 +1036,9 @@ footer .contact-form button.filled-button:hover {
 	color: #C0392B ;
 }
 
+.copidesc{
+	margin-left: 750px;
+}
 
 
 /* Sub-footer Style */
@@ -1340,5 +1344,8 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .show>.nav-link {
 		color: #C0392B !important;
 		border-bottom: none!important;
+	}
+	.nav-link current{
+		width: 100%;
 	}
 }
