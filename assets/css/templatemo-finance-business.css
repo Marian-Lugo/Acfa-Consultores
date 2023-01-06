@@ -1350,7 +1350,7 @@ footer .contact-form button.filled-button:hover {
 	}
 }
 
-#app-messenger, #app-whatsapp{
+#app-whatsapp{
 	position: fixed;
 	right: 24px;
 	bottom: 25px;
@@ -1360,7 +1360,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 #app-whatsapp{
-	bottom: 95px;
+	bottom: 30px;
 	display: block;
 }
 
